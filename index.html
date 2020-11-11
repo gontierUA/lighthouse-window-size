@@ -1,5 +1,17 @@
 <h1>window size: <span id="winWidth"></span>x<span id="winHeight"></span></h1>
 
+<style>
+  body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  h1 {
+    font-size: 9vw;
+  }
+</style>
+
 <script>
   document.getElementById('winWidth').innerText = window.innerWidth;
   document.getElementById('winHeight').innerText = window.innerHeight;
