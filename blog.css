@@ -1,5 +1,13 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+.custom-font-1 {
+  font-family: 'Hanalei', Arial;
+}
+
+.custom-font-2 {
+  font-family: 'Potta One', Arial;
+}
+
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
